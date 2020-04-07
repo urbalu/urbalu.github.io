@@ -1,0 +1,89 @@
+.containter {
+  font-family: "Open Sans", sans-serif;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter-form {
+  color: grey;
+  border: 1px solid #cfcfcf;
+  padding: 20px;
+  border-radius: 3px;
+  position: relative;
+  margin-top: 40px;
+}
+
+.newsletter-form h3 {
+  margin-top: 0;
+}
+
+.closing-x {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}
+
+.newsletter-form #email {
+  display: block;
+  width: 100%;
+  border: thin solid #cfcfcf;
+  height: 30px;
+  padding: 2px;
+  border-radius: 3%;
+  box-sizing: border-box;
+}
+
+.newsletter-form button {
+  display: block;
+  width: 100%;
+  background: #3cb878;
+  border: none;
+  color: white;
+  height: 30px;
+  margin: 5px 0 0 0;
+  cursor: pointer;
+}
+
+.closing-x button {
+  background: none;
+  color: black;
+}
+
+#terms {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.card {
+  width: 180px;
+  background: #3cb878;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: white;
+  box-shadow: 0px 0px 5px 3px grey;
+}
+.card-holder {
+  display: flex;
+  border: solid thin black;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 500px;
+  align-content: space-between;
+}
+
+#question-circle {
+  height: 100px;
+  width: 100px;
+  background: #3cb878;
+  border-radius: 50%;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
